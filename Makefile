@@ -30,7 +30,8 @@ GIT_BRANCH = master
 
 PWD := $(shell pwd)
 
-OE_BASE = $(PWD)/cuberevo
+#OE_BASE = $(PWD)/cuberevo
+OE_BASE = $(PWD)/$(MACHINE)
 
 GIT_DIR = $(OE_BASE)/openembedded
 
